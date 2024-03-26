@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonitorServer", "MonitorServer\MonitorServer.vcxproj", "{1131B9A5-115E-417F-952E-16A54A950908}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkLib", "..\..\5\NetworkLib\NetworkLib\NetworkLib.vcxitems", "{3B58DF34-1AAE-473B-A1D9-44C43B85867B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1131B9A5-115E-417F-952E-16A54A950908}.Debug|x64.ActiveCfg = Debug|x64
+		{1131B9A5-115E-417F-952E-16A54A950908}.Debug|x64.Build.0 = Debug|x64
+		{1131B9A5-115E-417F-952E-16A54A950908}.Debug|x86.ActiveCfg = Debug|Win32
+		{1131B9A5-115E-417F-952E-16A54A950908}.Debug|x86.Build.0 = Debug|Win32
+		{1131B9A5-115E-417F-952E-16A54A950908}.Release|x64.ActiveCfg = Release|x64
+		{1131B9A5-115E-417F-952E-16A54A950908}.Release|x64.Build.0 = Release|x64
+		{1131B9A5-115E-417F-952E-16A54A950908}.Release|x86.ActiveCfg = Release|Win32
+		{1131B9A5-115E-417F-952E-16A54A950908}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7918D705-54D5-4764-84BE-08B382D37F1A}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\5\NetworkLib\NetworkLib\NetworkLib.vcxitems*{1131b9a5-115e-417f-952e-16a54a950908}*SharedItemsImports = 4
+		..\..\5\NetworkLib\NetworkLib\NetworkLib.vcxitems*{3b58df34-1aae-473b-a1d9-44c43b85867b}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal

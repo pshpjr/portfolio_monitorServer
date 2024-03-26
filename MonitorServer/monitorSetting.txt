@@ -1,0 +1,4 @@
+monitor:
+{
+key: "ajfw@!cv980dSZ[fje#@fdj123948djf"
+}
